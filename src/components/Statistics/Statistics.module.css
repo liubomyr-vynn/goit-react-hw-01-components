@@ -1,0 +1,40 @@
+.statistics {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.statistics:hover,
+.statistics:focus {
+  transition: all 0.2s ease-in-out;
+  box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.219);
+}
+
+.title {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.statList {
+  display: flex;
+
+  border-top: 1px solid rgba(181, 181, 182, 0.3);
+  background-color: rgba(155, 152, 152, 0.3);
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 100%;
+  padding: 10px;
+}
