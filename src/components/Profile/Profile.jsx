@@ -1,4 +1,4 @@
-import css from "./Prifile.module.css";
+import css from "./Profile.module.css";
 
 
 export const Profile = ({ username, tag, location, avatar, stats }) => {

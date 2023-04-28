@@ -10,6 +10,12 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+.profile:hover,
+.profile:focus {
+  transition: all 0.2s ease-in-out;
+  box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.219);
+}
+
 .description {
   display: flex;
   padding: 30px 60px;
