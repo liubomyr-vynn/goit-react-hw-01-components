@@ -1,0 +1,73 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  border-radius: 10px;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.description {
+  display: flex;
+  padding: 30px 60px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.description p:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.avatar {
+  width: 120px;
+  margin-bottom: 40px;
+  border-radius: 50%;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(210, 210, 218, 0.3);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.stats > li {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid rgba(181, 181, 182, 0.3);
+
+  padding: 20px 0;
+  align-items: center;
+  justify-content: center;
+  flex-basis: calc(100% / 3);
+}
+
+.stats > li:first-child {
+  border-right: 1px solid rgba(181, 181, 182, 0.3);
+}
+
+.stats > li:last-child {
+  border-left: 1px solid rgba(181, 181, 182, 0.3);
+}
+
+.label {
+  margin-bottom: 5px;
+}
+
+.quantity {
+  font-size: large;
+  font-weight: 700;
+}
