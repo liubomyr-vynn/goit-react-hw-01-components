@@ -16,6 +16,7 @@
   border-radius: 10px;
   background-color: rgba(128, 128, 128, 0.116);
   box-shadow: rgba(0, 0, 0, 0.384) 0px 3px 8px;
+  cursor: pointer;
 }
 
 .item:hover,

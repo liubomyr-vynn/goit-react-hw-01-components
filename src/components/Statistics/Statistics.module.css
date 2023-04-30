@@ -1,12 +1,12 @@
 .statistics {
   display: flex;
   flex-direction: column;
-  width: 400px;
-  margin-top: 40px;
+  max-width: 400px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.315) 0px 3px 8px;
+  cursor: pointer;
 }
 
 .statistics:hover,
@@ -17,10 +17,9 @@
 
 .title {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
   text-transform: uppercase;
 }
 
@@ -37,8 +36,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-basis: calc((100% - 10px) / 5);
-  padding: 10px;
+  flex-basis: calc((100% - 5px) / 5);
+  padding: 10px 5px;
 }
 
 .item:first-child {
@@ -55,4 +54,5 @@
 
 .percentage {
   font-size: 22px;
+  font-weight: 500;
 }
